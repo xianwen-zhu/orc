@@ -1,0 +1,16 @@
+PODS:
+  - orc (0.1.0)
+
+DEPENDENCIES:
+  - orc (from `../`)
+
+EXTERNAL SOURCES:
+  orc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  orc: 771da884609acd0fd6a7341273dca6a8ab2a00cd
+
+PODFILE CHECKSUM: 6e6942c93ecfb8d406ed3cc93654937bc49ddf5a
+
+COCOAPODS: 1.10.1

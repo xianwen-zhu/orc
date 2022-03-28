@@ -59,13 +59,20 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		796750D5E8EF85ADAE10AF59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		796750D5E8EF85ADAE10AF59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9DBF0A057ED322AAECE8E8D8 /* orc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = orc.podspec; path = ../orc.podspec; sourceTree = "<group>"; };
+		9DBF0A057ED322AAECE8E8D8 /* orc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = orc.podspec; path = ../orc.podspec; sourceTree = "<group>"; };
 		B3AF68C803C76064024BECE4 /* Pods-orc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orc_Tests.debug.xcconfig"; path = "Target Support Files/Pods-orc_Tests/Pods-orc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6CFB6E7B099D159386DB1F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B6CFB6E7B099D159386DB1F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C7CB9212CC0684E260FB35C1 /* Pods-orc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orc_Example.release.xcconfig"; path = "Target Support Files/Pods-orc_Example/Pods-orc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3CCA7822EFC6B402716F70C /* Pods_orc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_orc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A4C10927F1CD2C0001DD33 /* orcAPluginProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = orcAPluginProvider.m; sourceTree = "<group>"; };
+		F4A4C10A27F1CD2C0001DD33 /* orcPluginRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = orcPluginRegister.h; sourceTree = "<group>"; };
+		F4A4C10B27F1CD2C0001DD33 /* startorcAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = startorcAction.m; sourceTree = "<group>"; };
+		F4A4C10C27F1CD2C0001DD33 /* orcAPluginProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = orcAPluginProvider.h; sourceTree = "<group>"; };
+		F4A4C10D27F1CD2C0001DD33 /* orcPluginRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = orcPluginRegister.m; sourceTree = "<group>"; };
+		F4A4C10E27F1CD2C0001DD33 /* startorcAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = startorcAction.h; sourceTree = "<group>"; };
+		F4A4C11027F1CD9E0001DD33 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		FE03C834504192B3D90855A4 /* Pods-orc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orc_Example.debug.xcconfig"; path = "Target Support Files/Pods-orc_Example/Pods-orc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +139,7 @@
 		6003F593195388D20070C39A /* Example for orc */ = {
 			isa = PBXGroup;
 			children = (
+				F4A4C10F27F1CD9E0001DD33 /* Classes */,
 				6003F59C195388D20070C39A /* ORCAppDelegate.h */,
 				6003F59D195388D20070C39A /* ORCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +201,30 @@
 				B3AF68C803C76064024BECE4 /* Pods-orc_Tests.debug.xcconfig */,
 				0668DD05304D58FD285973B9 /* Pods-orc_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4A4C10827F1CD2C0001DD33 /* ORCPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4C10927F1CD2C0001DD33 /* orcAPluginProvider.m */,
+				F4A4C10A27F1CD2C0001DD33 /* orcPluginRegister.h */,
+				F4A4C10B27F1CD2C0001DD33 /* startorcAction.m */,
+				F4A4C10C27F1CD2C0001DD33 /* orcAPluginProvider.h */,
+				F4A4C10D27F1CD2C0001DD33 /* orcPluginRegister.m */,
+				F4A4C10E27F1CD2C0001DD33 /* startorcAction.h */,
+			);
+			path = ORCPlugin;
+			sourceTree = "<group>";
+		};
+		F4A4C10F27F1CD9E0001DD33 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4C10827F1CD2C0001DD33 /* ORCPlugin */,
+				F4A4C11027F1CD9E0001DD33 /* .gitkeep */,
+			);
+			name = Classes;
+			path = ../../orc/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +288,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

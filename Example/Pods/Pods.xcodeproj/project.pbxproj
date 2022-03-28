@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AC5860A612467D17BF7F876EC3744F /* orcAPluginProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 616FE578BDC19BC26C3E52FD876D4AE5 /* orcAPluginProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1821417673EC7542978BF5529518F331 /* Pods-orc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0271C98C16C476DC7DE44B01B06D511 /* Pods-orc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A0F6B9961212E33B4E80BB91D6F58A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3E5680815B7AC5101727013DC0959E0B /* startorcAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3FC631420BF5A92CDEFC92663EA13E /* startorcAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51BD5DFADFA5DC89C88E25F5A8F0979D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F2971A32E6EA4D78E3F612ED70E8B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		62E0A454EB81727BD08D1A4C20128757 /* orcPluginRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695271DDD69091FED1553F8D18B7BEC /* orcPluginRegister.m */; };
+		6390D3C8ADD63FB254D036F87D59CEF9 /* Pods-orc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C520EE8023BCE08D8EDFC0DBF91E5D66 /* Pods-orc_Tests-dummy.m */; };
+		8180BA49463F7ABCAF2C13C9B3E9008E /* orc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC367411E884FC835635C346E6004DB8 /* orc-dummy.m */; };
+		890CCCF849F69793D947C4BCCCB51063 /* startorcAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1C6A4121DA95FC515ABCFF59BC583F /* startorcAction.m */; };
+		8A50E3C344E3926BB53B251669C03313 /* orcAPluginProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 44761E07A1F2A6BE065E532F39C29D67 /* orcAPluginProvider.m */; };
+		95C79E92914AF4238217AA1A8F69C58F /* orc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7268EC89A41D2507646E330AB5CD3D /* orc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A3192E2AEDF3FF11A216FEE0F9CEF7 /* Pods-orc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3435772AB3D696903E6501F6A16E2F1 /* Pods-orc_Example-dummy.m */; };
+		ECFDC3560B3516671A0BB8C63AD4F059 /* Pods-orc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBD77E6774A88DE7E8B64D38D0877C0 /* Pods-orc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA5E7849F47DEBF94EAF3E9564584F7 /* orcPluginRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = E8953A6D5167DD5CB3EBD37467AC65B7 /* orcPluginRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E2A846C0248BC52FA63BC9CE00BB49C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7DD1D910F4B5BB87D7AA8ABCDECD90D;
+			remoteInfo = "Pods-orc_Example";
+		};
+		72FEF2BB76FC5F10B29A4844A2E1072D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045D41E2FB71610E933D4EA730A90DFC;
+			remoteInfo = orc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E7268EC89A41D2507646E330AB5CD3D /* orc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "orc-umbrella.h"; sourceTree = "<group>"; };
+		0F12003700CFF43B31307CC9329B04EE /* orc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "orc-prefix.pch"; sourceTree = "<group>"; };
+		12C74F87058D077B06217EBD1A980333 /* Pods-orc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-orc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		164F204623EAE26319C3D6F13C47F057 /* orc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = orc.debug.xcconfig; sourceTree = "<group>"; };
+		21A290041746163B76CE4C0D3ED27ECE /* Pods-orc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-orc_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2512599638B8CD6A0675B2020EBC503A /* orc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = orc.framework; path = orc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCDC98E68EAE490DF7B0348F840F692 /* Pods-orc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-orc_Tests.modulemap"; sourceTree = "<group>"; };
+		32FAFFD2378C5B0C0703C7FAF370CC97 /* Pods-orc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-orc_Example.modulemap"; sourceTree = "<group>"; };
+		3BA0212CE70978610D620C38AE32D93C /* Pods-orc_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-orc_Tests-Info.plist"; sourceTree = "<group>"; };
+		446735170CA273B44D61C30640CDF73F /* Pods-orc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-orc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44761E07A1F2A6BE065E532F39C29D67 /* orcAPluginProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = orcAPluginProvider.m; path = orc/Classes/ORCPlugin/orcAPluginProvider.m; sourceTree = "<group>"; };
+		4695271DDD69091FED1553F8D18B7BEC /* orcPluginRegister.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = orcPluginRegister.m; path = orc/Classes/ORCPlugin/orcPluginRegister.m; sourceTree = "<group>"; };
+		49CC86C72A1B30AC3C28C4FC2817A1CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		616FE578BDC19BC26C3E52FD876D4AE5 /* orcAPluginProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = orcAPluginProvider.h; path = orc/Classes/ORCPlugin/orcAPluginProvider.h; sourceTree = "<group>"; };
+		6F0866CE5DE38F52F8A442EA05F6A864 /* Pods-orc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-orc_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74A75E1BB8EA14D442FDC766497337EF /* Pods-orc_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-orc_Example-Info.plist"; sourceTree = "<group>"; };
+		772FB5A6F998E095CFA135CA968AE572 /* orc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = orc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C32AE95D4A94ED844B801CFBBA21733 /* Pods-orc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-orc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A837E567863CA41A2BCE13FD6E49D5C1 /* Pods-orc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-orc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC367411E884FC835635C346E6004DB8 /* orc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "orc-dummy.m"; sourceTree = "<group>"; };
+		AFA8E87DCB8C8CFAFEEC11CD9AE9F1E6 /* Pods-orc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-orc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0271C98C16C476DC7DE44B01B06D511 /* Pods-orc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-orc_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B03210688A3A1D1B75E1E45DBD137459 /* Pods-orc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-orc_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BAE9304D044E1A2B28413DCEBF4F30C4 /* orc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "orc-Info.plist"; sourceTree = "<group>"; };
+		C520EE8023BCE08D8EDFC0DBF91E5D66 /* Pods-orc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-orc_Tests-dummy.m"; sourceTree = "<group>"; };
+		CDEE0969F1041D2623F8FE7BFB758D7B /* orc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = orc.modulemap; sourceTree = "<group>"; };
+		D3435772AB3D696903E6501F6A16E2F1 /* Pods-orc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-orc_Example-dummy.m"; sourceTree = "<group>"; };
+		D83257899C0C141160E5342DFEA6E72B /* orc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = orc.release.xcconfig; sourceTree = "<group>"; };
+		D9062B360ADE0506BE5996FB27A04A3F /* Pods_orc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_orc_Tests.framework; path = "Pods-orc_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3FC631420BF5A92CDEFC92663EA13E /* startorcAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = startorcAction.h; path = orc/Classes/ORCPlugin/startorcAction.h; sourceTree = "<group>"; };
+		DF1C6A4121DA95FC515ABCFF59BC583F /* startorcAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = startorcAction.m; path = orc/Classes/ORCPlugin/startorcAction.m; sourceTree = "<group>"; };
+		E8953A6D5167DD5CB3EBD37467AC65B7 /* orcPluginRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = orcPluginRegister.h; path = orc/Classes/ORCPlugin/orcPluginRegister.h; sourceTree = "<group>"; };
+		FBBD77E6774A88DE7E8B64D38D0877C0 /* Pods-orc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-orc_Example-umbrella.h"; sourceTree = "<group>"; };
+		FC85550DEF7986C79035DF75BC52D21D /* Pods-orc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-orc_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FCABDE2815DFDD504CF7097225E1B0C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FE6D1C799DACE8FE3F53A1A52F93E8F8 /* Pods_orc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_orc_Example.framework; path = "Pods-orc_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44BEE2549F74C777B725FE4532DEDE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A0F6B9961212E33B4E80BB91D6F58A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F78D032CD21880A35638772C52F3E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2971A32E6EA4D78E3F612ED70E8B3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF14F4AAD3F9256B00BA417FA59380B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD5DFADFA5DC89C88E25F5A8F0979D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134AA449750C994235C63C2C49B2316F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				49CC86C72A1B30AC3C28C4FC2817A1CC /* LICENSE */,
+				772FB5A6F998E095CFA135CA968AE572 /* orc.podspec */,
+				FCABDE2815DFDD504CF7097225E1B0C7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		53E90CAB4B7BF14632A10D5FBA32987D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2512599638B8CD6A0675B2020EBC503A /* orc.framework */,
+				FE6D1C799DACE8FE3F53A1A52F93E8F8 /* Pods_orc_Example.framework */,
+				D9062B360ADE0506BE5996FB27A04A3F /* Pods_orc_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F20F6EC64D2B766F6C1EBA1579FD385 /* Pods-orc_Example */ = {
+			isa = PBXGroup;
+			children = (
+				32FAFFD2378C5B0C0703C7FAF370CC97 /* Pods-orc_Example.modulemap */,
+				AFA8E87DCB8C8CFAFEEC11CD9AE9F1E6 /* Pods-orc_Example-acknowledgements.markdown */,
+				7C32AE95D4A94ED844B801CFBBA21733 /* Pods-orc_Example-acknowledgements.plist */,
+				D3435772AB3D696903E6501F6A16E2F1 /* Pods-orc_Example-dummy.m */,
+				21A290041746163B76CE4C0D3ED27ECE /* Pods-orc_Example-frameworks.sh */,
+				74A75E1BB8EA14D442FDC766497337EF /* Pods-orc_Example-Info.plist */,
+				FBBD77E6774A88DE7E8B64D38D0877C0 /* Pods-orc_Example-umbrella.h */,
+				FC85550DEF7986C79035DF75BC52D21D /* Pods-orc_Example.debug.xcconfig */,
+				B03210688A3A1D1B75E1E45DBD137459 /* Pods-orc_Example.release.xcconfig */,
+			);
+			name = "Pods-orc_Example";
+			path = "Target Support Files/Pods-orc_Example";
+			sourceTree = "<group>";
+		};
+		66A4190951E9ECABC3DB364A1C95BC1F /* Pods-orc_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FCDC98E68EAE490DF7B0348F840F692 /* Pods-orc_Tests.modulemap */,
+				12C74F87058D077B06217EBD1A980333 /* Pods-orc_Tests-acknowledgements.markdown */,
+				446735170CA273B44D61C30640CDF73F /* Pods-orc_Tests-acknowledgements.plist */,
+				C520EE8023BCE08D8EDFC0DBF91E5D66 /* Pods-orc_Tests-dummy.m */,
+				3BA0212CE70978610D620C38AE32D93C /* Pods-orc_Tests-Info.plist */,
+				B0271C98C16C476DC7DE44B01B06D511 /* Pods-orc_Tests-umbrella.h */,
+				A837E567863CA41A2BCE13FD6E49D5C1 /* Pods-orc_Tests.debug.xcconfig */,
+				6F0866CE5DE38F52F8A442EA05F6A864 /* Pods-orc_Tests.release.xcconfig */,
+			);
+			name = "Pods-orc_Tests";
+			path = "Target Support Files/Pods-orc_Tests";
+			sourceTree = "<group>";
+		};
+		82E6C6F45A4C83A1E8395CD9E13B1BB4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F20F6EC64D2B766F6C1EBA1579FD385 /* Pods-orc_Example */,
+				66A4190951E9ECABC3DB364A1C95BC1F /* Pods-orc_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8567FFD4504F60B74AF9AB7FFCD430C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE0969F1041D2623F8FE7BFB758D7B /* orc.modulemap */,
+				AC367411E884FC835635C346E6004DB8 /* orc-dummy.m */,
+				BAE9304D044E1A2B28413DCEBF4F30C4 /* orc-Info.plist */,
+				0F12003700CFF43B31307CC9329B04EE /* orc-prefix.pch */,
+				0E7268EC89A41D2507646E330AB5CD3D /* orc-umbrella.h */,
+				164F204623EAE26319C3D6F13C47F057 /* orc.debug.xcconfig */,
+				D83257899C0C141160E5342DFEA6E72B /* orc.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/orc";
+			sourceTree = "<group>";
+		};
+		B1553AC6A23D2B57583B9FA8D1DA67FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8C85D69715FB38C1FBBEB29EAA29B9D /* orc */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C8C85D69715FB38C1FBBEB29EAA29B9D /* orc */ = {
+			isa = PBXGroup;
+			children = (
+				616FE578BDC19BC26C3E52FD876D4AE5 /* orcAPluginProvider.h */,
+				44761E07A1F2A6BE065E532F39C29D67 /* orcAPluginProvider.m */,
+				E8953A6D5167DD5CB3EBD37467AC65B7 /* orcPluginRegister.h */,
+				4695271DDD69091FED1553F8D18B7BEC /* orcPluginRegister.m */,
+				DC3FC631420BF5A92CDEFC92663EA13E /* startorcAction.h */,
+				DF1C6A4121DA95FC515ABCFF59BC583F /* startorcAction.m */,
+				134AA449750C994235C63C2C49B2316F /* Pod */,
+				8567FFD4504F60B74AF9AB7FFCD430C0 /* Support Files */,
+			);
+			name = orc;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B1553AC6A23D2B57583B9FA8D1DA67FC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				53E90CAB4B7BF14632A10D5FBA32987D /* Products */,
+				82E6C6F45A4C83A1E8395CD9E13B1BB4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F7E05E6A78EF3412613C04D3CC5C1DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C79E92914AF4238217AA1A8F69C58F /* orc-umbrella.h in Headers */,
+				12AC5860A612467D17BF7F876EC3744F /* orcAPluginProvider.h in Headers */,
+				EFA5E7849F47DEBF94EAF3E9564584F7 /* orcPluginRegister.h in Headers */,
+				3E5680815B7AC5101727013DC0959E0B /* startorcAction.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEEA43EE71EB2C58D2CCB4ED7F3CD22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1821417673EC7542978BF5529518F331 /* Pods-orc_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742EA5CDE2AB0C88711445B5BFD0EBC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFDC3560B3516671A0BB8C63AD4F059 /* Pods-orc_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		045D41E2FB71610E933D4EA730A90DFC /* orc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF75CC7B489B4E5A0AC59856C5E3E43E /* Build configuration list for PBXNativeTarget "orc" */;
+			buildPhases = (
+				0F7E05E6A78EF3412613C04D3CC5C1DF /* Headers */,
+				EFB5BB5EFF87E24844CC1D88AE1B634A /* Sources */,
+				CDF14F4AAD3F9256B00BA417FA59380B /* Frameworks */,
+				8AE0E6689C12EF4482451E011A74BF4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = orc;
+			productName = orc;
+			productReference = 2512599638B8CD6A0675B2020EBC503A /* orc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F8FBBBC6A5BFC2693EBF9D94F2A6F7E /* Pods-orc_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073FCB34B63190EBB4ED2B9E13BD6ED4 /* Build configuration list for PBXNativeTarget "Pods-orc_Tests" */;
+			buildPhases = (
+				4CEEA43EE71EB2C58D2CCB4ED7F3CD22 /* Headers */,
+				3E4E15BC925FA5F74F555AD2B3E5BAD9 /* Sources */,
+				9F78D032CD21880A35638772C52F3E23 /* Frameworks */,
+				025FB22D588E9661592C96DA9D556E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F90FCF61CCA616C4B580685D6CA6D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-orc_Tests";
+			productName = "Pods-orc_Tests";
+			productReference = D9062B360ADE0506BE5996FB27A04A3F /* Pods_orc_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7DD1D910F4B5BB87D7AA8ABCDECD90D /* Pods-orc_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74629BAFA323BEB1F4559407C18A96D /* Build configuration list for PBXNativeTarget "Pods-orc_Example" */;
+			buildPhases = (
+				742EA5CDE2AB0C88711445B5BFD0EBC9 /* Headers */,
+				5DF2BDB9EE182E3277520E65DE6D4A24 /* Sources */,
+				44BEE2549F74C777B725FE4532DEDE6A /* Frameworks */,
+				48E5407E3F268981E92F0A4E61FB5F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D0258FBE8A8335B2A290A50ADFBC4F /* PBXTargetDependency */,
+			);
+			name = "Pods-orc_Example";
+			productName = "Pods-orc_Example";
+			productReference = FE6D1C799DACE8FE3F53A1A52F93E8F8 /* Pods_orc_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 53E90CAB4B7BF14632A10D5FBA32987D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045D41E2FB71610E933D4EA730A90DFC /* orc */,
+				F7DD1D910F4B5BB87D7AA8ABCDECD90D /* Pods-orc_Example */,
+				3F8FBBBC6A5BFC2693EBF9D94F2A6F7E /* Pods-orc_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025FB22D588E9661592C96DA9D556E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E5407E3F268981E92F0A4E61FB5F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE0E6689C12EF4482451E011A74BF4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4E15BC925FA5F74F555AD2B3E5BAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6390D3C8ADD63FB254D036F87D59CEF9 /* Pods-orc_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF2BDB9EE182E3277520E65DE6D4A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A3192E2AEDF3FF11A216FEE0F9CEF7 /* Pods-orc_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB5BB5EFF87E24844CC1D88AE1B634A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8180BA49463F7ABCAF2C13C9B3E9008E /* orc-dummy.m in Sources */,
+				8A50E3C344E3926BB53B251669C03313 /* orcAPluginProvider.m in Sources */,
+				62E0A454EB81727BD08D1A4C20128757 /* orcPluginRegister.m in Sources */,
+				890CCCF849F69793D947C4BCCCB51063 /* startorcAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F90FCF61CCA616C4B580685D6CA6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-orc_Example";
+			target = F7DD1D910F4B5BB87D7AA8ABCDECD90D /* Pods-orc_Example */;
+			targetProxy = 2E2A846C0248BC52FA63BC9CE00BB49C /* PBXContainerItemProxy */;
+		};
+		E7D0258FBE8A8335B2A290A50ADFBC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = orc;
+			target = 045D41E2FB71610E933D4EA730A90DFC /* orc */;
+			targetProxy = 72FEF2BB76FC5F10B29A4844A2E1072D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		40A03AB7E84107E736FC3891BE4EF0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83257899C0C141160E5342DFEA6E72B /* orc.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/orc/orc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/orc/orc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/orc/orc.modulemap";
+				PRODUCT_MODULE_NAME = orc;
+				PRODUCT_NAME = orc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46F3DD5455991EB40897C5EA77AEEA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 164F204623EAE26319C3D6F13C47F057 /* orc.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/orc/orc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/orc/orc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/orc/orc.modulemap";
+				PRODUCT_MODULE_NAME = orc;
+				PRODUCT_NAME = orc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		846F47153319D410807842F3B37A0870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A837E567863CA41A2BCE13FD6E49D5C1 /* Pods-orc_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-orc_Tests/Pods-orc_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-orc_Tests/Pods-orc_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A37253785B1522FE86FB3540A984FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03210688A3A1D1B75E1E45DBD137459 /* Pods-orc_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-orc_Example/Pods-orc_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-orc_Example/Pods-orc_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		975F27E4C6F52D9A0401D01FF2DE5EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC85550DEF7986C79035DF75BC52D21D /* Pods-orc_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-orc_Example/Pods-orc_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-orc_Example/Pods-orc_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A09C1DC6A67C2E89EC5CD920E6521239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0866CE5DE38F52F8A442EA05F6A864 /* Pods-orc_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-orc_Tests/Pods-orc_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-orc_Tests/Pods-orc_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073FCB34B63190EBB4ED2B9E13BD6ED4 /* Build configuration list for PBXNativeTarget "Pods-orc_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846F47153319D410807842F3B37A0870 /* Debug */,
+				A09C1DC6A67C2E89EC5CD920E6521239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF75CC7B489B4E5A0AC59856C5E3E43E /* Build configuration list for PBXNativeTarget "orc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F3DD5455991EB40897C5EA77AEEA1B /* Debug */,
+				40A03AB7E84107E736FC3891BE4EF0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74629BAFA323BEB1F4559407C18A96D /* Build configuration list for PBXNativeTarget "Pods-orc_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975F27E4C6F52D9A0401D01FF2DE5EF7 /* Debug */,
+				8A37253785B1522FE86FB3540A984FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
